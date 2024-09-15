@@ -1,0 +1,10 @@
+export interface Login  {
+    email: string,
+    password:string
+}
+export interface Signup {
+    firstName: string,
+    lastName: string,
+    email: string,
+    passwordHash: string
+}
